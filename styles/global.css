@@ -1,0 +1,81 @@
+body {
+    margin: 0;
+}
+
+
+/* to apply bg a image with opacity 50% */
+
+.bg-image {
+    overflow-x: hidden;
+}
+
+.bg-image img {
+    width: 100%;
+    object-fit: cover;
+    opacity: 0.5;
+}
+
+.place-over-bg {
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+
+/* translation section */
+
+.box {
+    width: 100%;
+    border: 0rem;
+    border-radius: 1.5rem;
+    height: 110px;
+    word-wrap: break-word;
+    background-color: rgba(228, 230, 231, 0.8);
+    padding: 1rem;
+    font-size: 1rem;
+    border-bottom-left-radius: 1rem;
+}
+
+#output {
+    overflow-y: scroll;
+    font-size: 1rem;
+}
+
+#output::-webkit-scrollbar {
+    background: transparent;
+}
+
+.container {
+    width: 100%;
+    max-width: 600px;
+    min-height: 100px;
+    margin: auto;
+    word-wrap: break-word;
+    padding: 0 20px;
+}
+
+#translateBtn {
+    border: none;
+    border: 2px solid black;
+    border-radius: 25px;
+    padding: 0.6rem 2rem 0.4rem;
+    margin: 0.5rem;
+    cursor: pointer;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-left {
+    text-align: justify;
+    border-bottom-left-radius: 1rem;
+}
+
+
+/* footer */
+
+.footer {
+    padding-bottom: 20px;
+    border-bottom-left-radius: 1rem;
+}

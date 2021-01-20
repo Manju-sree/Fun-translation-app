@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yoda Speaks</title>
+    <meta name="author" content="Manjushree">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Pro&family=Literata&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+
+    <link rel="stylesheet" type="text/css" href="styles/global.css">
+</head>
+
+<body>
+
+    <div class="bg-image"><img id="bg" src="/images/yoda.svg">
+    </div>
+    <div class="place-over-bg">
+        <header class="container text-center">
+            <h1>Talk Like Yoda</h1>
+            <p>Please type in your text here so that our Yoda Speak translator can do the magic and convert it to Yodish ...
+            </p>
+        </header>
+
+        <footer class="footer text-center container">
+            <section class="text-center container">
+
+                <textarea class="box" id="userInput" placeholder="Enter your text here and we will convert into Yoda language"></textarea>
+                <button id="translateBtn">Translate</button>
+                <h3>Translated output is shown below</h3>
+                <div class="text-left box" id="output"></div>
+            </section>
+        </footer>
+    </div>
+
+
+    <script src="app.js"></script>
+</body>
+
+</html>
